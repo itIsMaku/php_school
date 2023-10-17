@@ -23,12 +23,15 @@ if ($_POST) {
 ?>
 <html>
 <head>
+    <link rel="stylesheet" href="./second/styles.css">
 </head>
 <body>
-<form method="post" action="second.php">
-    <label for="plodina">Zadej název plodiny</label>
-    <input type="text" name="plodina" value="">
-    <button type="submit">Rozpoznat</button>
-</form>
+<div class="container">
+    <form method="post" action="second.php">
+        <label for="plodina">Zadej název plodiny</label>
+        <input type="text" name="plodina" value="">
+        <button type="submit">Rozpoznat</button>
+    </form>
+</div>
 </body>
 </html>
